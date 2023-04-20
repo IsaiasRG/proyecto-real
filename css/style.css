@@ -1,0 +1,265 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+*{   
+    margin: 0;
+    padding: 0; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Navegadores - Mains */
+
+header {
+    background: #06324B;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+header img{
+    height: 50px;
+    padding: 5px;
+    margin-left: 25px;
+}
+
+header #navegador {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+header #navegador .links {
+    color: #e0fbfc;
+    text-decoration: none;
+}
+
+header #hamb {
+    display: none;
+}
+
+.menu {
+    background-color: #C8F7F9;
+}
+
+/* Sections - parrafos */
+
+.info {
+   margin-left: 10px;
+}
+
+.info h1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.info .imagen {
+    display: flex;
+}
+
+
+.info .texto {
+    justify-content: left;
+    padding: 10px 0 10px 0;
+}
+
+.info .texto-img {
+    justify-content: left;
+    width: 900px;
+}
+
+/* imagenes y carruseles */
+
+.info #rex-1 {
+    height: 200px;
+    width: 500px;
+    margin: 0 20px;
+}
+
+.info #buck {
+    height: 200px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    justify-content: right;
+}
+
+.info #skull {
+    height: 250px;
+    width: 500px;
+    margin-left: 20px;
+    justify-content: right;
+    margin-bottom: 10px;
+}
+
+.carrusel {
+    height: 400px;
+    width: 100%;
+}
+
+/* Sobre Nosotros */
+
+#form {
+    align-items: center;
+    margin-top: 10px;
+}
+
+#form #formulario img {
+    height: 50px;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 30px;
+
+}
+
+#fondo-form {
+    background-color: #876E82;
+    padding: 50px;
+    width: 400px;
+    height: 200px;
+    gap: 65px;
+    margin-left: 30%;
+    
+    
+}
+
+.formulario-relleno {
+    background-color: #ACAD94;
+    margin: 3px;
+}
+
+.botones {
+    margin: 20px;
+    justify-content: space-around;
+    background-color: #5A4956;
+    color: #ACAD94;
+}
+
+.video {
+    display: flex;
+    margin: 5px;
+    gap: 10px;
+}
+
+/* Footers */
+
+.fin {
+    background-color: grey;;
+    height: 200px;
+    justify-content: space-around;
+}
+
+.fin h2 {
+    color: #06324B;
+    padding: 5px;
+}
+
+.fin hr {
+    color: #075380;
+}
+
+.fin #footer1 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.fin #footer2 {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fin #footer1 .links {
+    text-decoration: none;
+    color: #06324B;
+}
+
+.fin #footer2 .links {
+    text-decoration: none;
+    color: #06324B;
+}
+
+.copy {
+    padding-top:60px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+
+    /* Header */
+
+    nav {
+        display: none;
+    }
+
+    header #hamb {
+        display: block;
+        justify-content: right;
+    }
+
+    /* Main */
+   
+    .info .imagen {
+        align-items: center;
+        flex-direction: column; 
+        gap: 10px;
+    }
+    .info .imagen .texto-img {
+        width: 90%;
+    }
+
+    .info .texto-info {
+        display: flex;
+        width: 90%;
+        align-items: center;
+    }
+
+    /* Imagenes y Video */
+
+    .info .imagen #rex-1 {
+        width: 70%;
+        justify-content: center;
+    }
+    
+    .info .imagen #skull {
+        width: 70%;
+        justify-content: center;
+    }
+
+     .video {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .video p {
+
+        width: 90%;
+     }
+
+     .video .vd {
+        width: 85%;
+        height: 260px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+     }
+
+     /* Sobre Nosotros */
+
+     .intro {
+        margin: 0 20px
+     }
+
+     #form {
+        width: 100%;
+     }
+
+     #form #fondo-form {
+        width: 70%;
+        margin: 10px;
+     }
+
+}
