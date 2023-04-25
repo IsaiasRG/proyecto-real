@@ -73,6 +73,38 @@ header #hamb {
     width: 900px;
 }
 
+.texto-grid {
+    display: grid;
+    grid-template-columns: 48% 50%;
+    grid-template-rows: 200px 300px 100px;
+}
+
+.p-grid1 {
+    grid-area: 1/1/2/3;
+}
+
+.p-grid2 {
+    grid-area: 2/2/2/3;
+}
+
+.p-grid3 {
+    grid-area: 3/1/4/3;
+}
+
+.img-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 530px;
+}
+
+#dynamo {
+    width: 500px;
+    height: 250px;
+}
+
+
+
 /* imagenes y carruseles */
 
 .info #rex-1 {
