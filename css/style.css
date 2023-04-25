@@ -49,10 +49,13 @@ header #hamb {
 .info {
    margin-left: 10px;
 }
+.h1 {
+    padding: 20px 0 10px 0;
+}
 
-.info h1{
-    padding-bottom: 20px;
-    padding-top: 20px;
+.titulos {
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .info .imagen {
