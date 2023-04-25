@@ -69,7 +69,8 @@ header img{
 .texto-grid {
     display: grid;
     grid-template-columns: 48% 50%;
-    grid-template-rows: 200px 300px 100px;
+    grid-template-rows: 230px 360px 100px;
+    padding: 20px;
 }
 
 .p-grid1 {
@@ -82,6 +83,7 @@ header img{
 
 .p-grid3 {
     grid-area: 3/1/4/3;
+    
 }
 
 
@@ -176,8 +178,8 @@ header img{
 /* Footers */
 
 .fin {
+    align-items: flex-end;
     background-color: grey;;
-    height: 200px;
     justify-content: space-around;
 }
 
@@ -216,4 +218,117 @@ header img{
 .copy {
     padding-top:60px;
     justify-content: center;
+}
+
+
+
+
+/* MQs */
+
+@media screen and (max-width: 1115px) {
+
+    .info .texto-grid {
+        grid-template-columns: 48% 50%;
+        grid-template-rows: 270px 460px 100px;
+        gap: 5px;
+
+    }
+
+    #dynamo {
+        height: 350px;
+    } 
+}
+
+@media screen and (max-width: 425px) {
+
+    /* Main */
+   
+    .info .imagen {
+        align-items: center;
+        flex-direction: column; 
+        gap: 10px;
+    }
+    .info .imagen .texto-img {
+        width: 90%;
+    }
+
+    .info .texto-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        
+    }
+
+    .info .texto-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .info .texto-grid .p-grid1 {
+        width: 90%;
+    }
+
+    .info .texto-grid .p-grid2 {
+        width: 90%;
+    }
+
+    .info .texto-grid .p-grid3 {
+        width: 90%;
+    }
+
+    /* Imagenes y Video */
+
+    .info .imagen #rex-1 {
+        width: 75%;
+        justify-content: center;
+    }
+
+    .info .texto-grid #dynamo {
+        width: 85%;
+        margin-left: 10px;
+        justify-content: center;
+    }
+    
+    .info .imagen #skull {
+        width: 70%;
+        justify-content: center;
+    }
+
+     .video {
+        flex-direction: column;
+        align-items: center;
+     }
+
+     .video p {
+
+        width: 90%;
+     }
+
+     .video .vd {
+        width: 85%;
+        height: 260px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+     }
+
+     /* Sobre Nosotros */
+
+     .intro {
+        margin: 0 20px
+     }
+
+     #form {
+        width: 100%;
+     }
+
+     #form #fondo-form {
+        width: 70%;
+        margin: 10px;
+     }
+
 }
