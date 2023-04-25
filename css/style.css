@@ -10,12 +10,6 @@
 
 /* Navegadores - Mains */
 
-header {
-    background: #06324B;
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-}
 
 header img{
     height: 50px;
@@ -23,19 +17,18 @@ header img{
     margin-left: 25px;
 }
 
-header #navegador {
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    margin-top: 20px;
-    margin-right: 25px;
+.bg-nav {
+    background-color: #5A0002;
+
 }
 
-header #navegador .links {
-    color: #e0fbfc;
-    text-decoration: none;
+.bg-nav .link-color {
+    color: #F5FBEF;
 }
 
+.link-color:hover {
+    color: #DE541E;
+}
 
 .menu {
     background-color: #C8F7F9;
@@ -218,80 +211,4 @@ header #navegador .links {
 .copy {
     padding-top:60px;
     justify-content: center;
-}
-
-@media screen and (max-width: 425px) {
-
-    /* Header */
-
-    nav {
-        display: none;
-    }
-
-    header #hamb {
-        display: block;
-        justify-content: right;
-    }
-
-    /* Main */
-   
-    .info .imagen {
-        align-items: center;
-        flex-direction: column; 
-        gap: 10px;
-    }
-    .info .imagen .texto-img {
-        width: 90%;
-    }
-
-    .info .texto-info {
-        display: flex;
-        width: 90%;
-        align-items: center;
-    }
-
-    /* Imagenes y Video */
-
-    .info .imagen #rex-1 {
-        width: 70%;
-        justify-content: center;
-    }
-    
-    .info .imagen #skull {
-        width: 70%;
-        justify-content: center;
-    }
-
-     .video {
-        flex-direction: column;
-        align-items: center;
-     }
-
-     .video p {
-
-        width: 90%;
-     }
-
-     .video .vd {
-        width: 85%;
-        height: 260px;
-        margin-top: 30px;
-        margin-bottom: 10px;
-     }
-
-     /* Sobre Nosotros */
-
-     .intro {
-        margin: 0 20px
-     }
-
-     #form {
-        width: 100%;
-     }
-
-     #form #fondo-form {
-        width: 70%;
-        margin: 10px;
-     }
-
 }
