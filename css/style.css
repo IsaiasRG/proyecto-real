@@ -36,9 +36,6 @@ header #navegador .links {
     text-decoration: none;
 }
 
-header #hamb {
-    display: none;
-}
 
 .menu {
     background-color: #C8F7F9;
