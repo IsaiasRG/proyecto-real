@@ -1,0 +1,87 @@
+.menu {
+    background-color: #0B0B1E;
+    color: #9BB1FF;
+
+    section {
+        .carrusel {
+            height: 400px;
+            width: 100%;
+        }
+        
+    }
+
+    .info {
+        margin-left: 10px;
+    
+        .h1 {
+            padding: 20px 0 10px 0;
+            color: #697268;
+        }
+       
+        .titulos {
+            padding-bottom: 5px;
+            padding-top: 5px;
+            color:#697268;
+        }
+
+        .imagen {
+            display: flex;
+
+            .texto-img {
+                justify-content: left;
+                width: 900px;
+
+            }
+
+            #rex-1 {
+                height: 200px;
+                width: 500px;
+                margin: 0 20px;
+            }
+
+            #buck {
+                height: 200px;
+                width: 300px;
+                margin-left: 20px;
+                margin-bottom: 20px;
+                justify-content: right;
+            }
+
+            #skull {
+                height: 250px;
+                width: 500px;
+                margin-left: 20px;
+                justify-content: right;
+                margin-bottom: 10px;
+            }
+
+            #labios {
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+        .texto-info {
+
+            .texto {
+                justify-content: left;
+                padding: 10px 0 10px 0;
+            }
+          }
+        
+        
+        .texto-stan {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0 10px 0;
+            
+            #stan {
+                width: 80%;
+                height: 300px;
+            }
+        }
+     }
+
+}
+
+  

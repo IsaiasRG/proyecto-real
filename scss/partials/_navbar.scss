@@ -1,0 +1,18 @@
+header {
+    .bg-nav {
+        background-color: #5A0002;
+
+        .link-color {
+            color: #F5FBEF;
+            &:hover {
+                color: #DE541E;
+            }
+        }
+    
+    }
+    img {
+    height: 50px;
+    padding: 5px;
+    margin-left: 25px;
+}
+}
