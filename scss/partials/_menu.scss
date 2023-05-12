@@ -1,87 +1,113 @@
 .menu {
-    background-color: #0B0B1E;
-    color: #9BB1FF;
+  background-color: map-get($map: $colores, menu);
+  color: map-get($map: $colores, letra);
 
-    section {
-        .carrusel {
-            height: 400px;
-            width: 100%;
-        }
-        
+  section {
+    .carrusel {
+      height: 400px;
+      width: 100%;
+    }
+  }
+
+  .info {
+    margin-left: 10px;
+
+    .h1 {
+      padding: 20px 0 10px 0;
+      color: map-get($map: $colores, titulos);
     }
 
-    .info {
-        margin-left: 10px;
+    .titulos {
+      @extend .h1;
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+
+    .imagen {
+      display: flex;
+
+      .texto-img {
+        justify-content: left;
+        width: 900px;
+      }
+
+      #rex-1 {
+        height: 200px;
+        width: 500px;
+        margin: 0 20px;
+      }
+
+      #buck {
+        height: 200px;
+        width: 300px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        justify-content: right;
+      }
+
+      #skull {
+        height: 250px;
+        width: 500px;
+        margin-left: 20px;
+        justify-content: right;
+        margin-bottom: 10px;
+      }
+
+      #labios {
+        width: 300px;
+        height: 200px;
+      }
+    }
+
+    .texto-info {
+      .texto {
+        justify-content: left;
+        padding: 10px 0 10px 0;
+      }
+    }
+
+    .texto-stan {
+      display: flex;
+      justify-content: center;
+      padding: 10px 0 10px 0;
+
+      #stan {
+        width: 80%;
+        height: 300px;
+      }
+    }
+
+    .texto-grid {
+      display: grid;
+      grid-template-columns: 48% 50%;
+      grid-template-rows: 230px 360px 100px;
+      padding: 20px;
+
+      .p-grid1 {
+        grid-area: 1/1/2/3;
+      }
+
+      .p-grid2 {
+        grid-area: 2/2/2/3;
+      }
+
+      .p-grid3 {
+        grid-area: 3/1/4/3;
+      }
+
+      .img-texto {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        width: 530px;
+        color: #9BB1FF;
     
-        .h1 {
-            padding: 20px 0 10px 0;
-            color: #697268;
+        #dynamo {
+            width: 500px;
+            height: 250px;
         }
-       
-        .titulos {
-            padding-bottom: 5px;
-            padding-top: 5px;
-            color:#697268;
-        }
-
-        .imagen {
-            display: flex;
-
-            .texto-img {
-                justify-content: left;
-                width: 900px;
-
-            }
-
-            #rex-1 {
-                height: 200px;
-                width: 500px;
-                margin: 0 20px;
-            }
-
-            #buck {
-                height: 200px;
-                width: 300px;
-                margin-left: 20px;
-                margin-bottom: 20px;
-                justify-content: right;
-            }
-
-            #skull {
-                height: 250px;
-                width: 500px;
-                margin-left: 20px;
-                justify-content: right;
-                margin-bottom: 10px;
-            }
-
-            #labios {
-                width: 300px;
-                height: 200px;
-            }
-        }
-
-        .texto-info {
-
-            .texto {
-                justify-content: left;
-                padding: 10px 0 10px 0;
-            }
-          }
-        
-        
-        .texto-stan {
-            display: flex;
-            justify-content: center;
-            padding: 10px 0 10px 0;
-            
-            #stan {
-                width: 80%;
-                height: 300px;
-            }
-        }
-     }
-
+    }
+    
+    }
+  }
 }
-
-  

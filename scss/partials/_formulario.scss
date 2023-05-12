@@ -1,0 +1,41 @@
+#form {
+    align-items: center;
+    margin: 10px 0 0 0;
+ 
+    #fondo-form {
+        background-color: #876E82;
+        padding: 50px;
+        width: 400px;
+        height: 400px;
+        gap: 65px;
+        margin-left: 30%;
+        
+        #formulario {
+            
+
+            .formulario-relleno {
+                background-color: #ACAD94;
+                margin: 3px;
+
+            }
+
+
+            img {
+                height: 50px;
+                justify-content: center;
+                margin-left: 40%;
+                margin-top: 30px;
+            
+            }
+            
+
+            .botones {
+                margin: 20px;
+                justify-content: space-around;
+                background-color: #5A4956;
+                color: #ACAD94;
+            }
+    
+        }
+    }
+}

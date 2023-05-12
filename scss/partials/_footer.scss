@@ -1,0 +1,48 @@
+.fin {
+    align-items: flex-end;
+    background-color: grey;;
+    justify-content: space-around;
+    height: 300px;
+
+    h2 {
+        color: #06324B;
+        padding: 5px;
+    }
+
+    hr {
+        color: #075380;
+    }
+
+    #footer1 {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+
+        .links {
+            @include link;
+        }
+        
+    }
+
+    #footer2 {
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+
+        .links {
+            @include link;
+        }
+    }
+
+    @mixin link {
+        text-decoration: none;
+        color: #06324B;
+    }
+
+    .copy {
+        padding-top:60px;
+        justify-content: center;
+    }
+    
+}

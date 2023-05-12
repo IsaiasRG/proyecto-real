@@ -1,9 +1,9 @@
 header {
     .bg-nav {
-        background-color: #5A0002;
+        background-color: map-get($map: $colores,nav );
 
         .link-color {
-            color: #F5FBEF;
+            color: map-get($map: $colores, links );
             &:hover {
                 color: #DE541E;
             }
