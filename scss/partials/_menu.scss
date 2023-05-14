@@ -1,6 +1,9 @@
+@import "./variables";
+@import "./medias.queries";
+
 .menu {
-  background-color: map-get($map: $colores, menu);
-  color: map-get($map: $colores, letra);
+  background-color: map-get($map: $colores, $key: menu);
+  color: map-get($map: $colores, $key:letra);
 
   section {
     .carrusel {
@@ -14,7 +17,7 @@
 
     .h1 {
       padding: 20px 0 10px 0;
-      color: map-get($map: $colores, titulos);
+      color: map-get($map: $colores, $key:titulos);
     }
 
     .titulos {
@@ -63,6 +66,32 @@
       .texto {
         justify-content: left;
         padding: 10px 0 10px 0;
+      }
+
+      .divs-animation {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+
+        .img-animation {
+          width: 500px;
+          flex-direction:column ;
+          
+
+          .trex-animation {
+            width: 100%;
+            height: 400px;
+            padding-bottom: 20px;
+            transition: all 1s;
+
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+
+
+          
+        }
       }
     }
 

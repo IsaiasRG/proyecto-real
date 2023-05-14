@@ -1,3 +1,5 @@
+@import "./medias.queries";
+
 .fin {
     align-items: flex-end;
     background-color: grey;;
@@ -12,6 +14,11 @@
     hr {
         color: #075380;
     }
+
+    @mixin link {
+        text-decoration: none;
+        color: #06324B;
+    } 
 
     #footer1 {
         padding-top: 50px;
@@ -35,10 +42,7 @@
         }
     }
 
-    @mixin link {
-        text-decoration: none;
-        color: #06324B;
-    }
+   
 
     .copy {
         padding-top:60px;

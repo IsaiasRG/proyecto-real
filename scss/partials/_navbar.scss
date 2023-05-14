@@ -1,11 +1,13 @@
+@import "./variables";
+
 header {
     .bg-nav {
-        background-color: map-get($map: $colores,nav );
+        background-color: map-get($map: $colores, $key:nav);
 
         .link-color {
-            color: map-get($map: $colores, links );
+            color: map-get($map: $colores, $key:links );
             &:hover {
-                color: #DE541E;
+                color: #031926;
             }
         }
     
