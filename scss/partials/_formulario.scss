@@ -37,6 +37,14 @@
                 background-color: #5A4956;
                 color: #ACAD94;
             }
+
+            #logo-form {
+                transition: all 2s;
+
+                &:hover {
+                    transform: scale(1);
+                }
+            }
     
         }
     }

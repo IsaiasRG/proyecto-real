@@ -57,7 +57,21 @@
                 justify-content: center;
                 flex-wrap: wrap;
                 width: 90%;
-                
+
+                .divs-animation {
+                    flex-direction: column;
+                    align-items: center;
+
+                    .img-animation {
+                        width: 90%;
+                        margin: 5px;
+                        .trex-animation {
+                            width: 90%;
+                        }
+                    }
+                }
+            
+
             }
     
             .texto-grid {

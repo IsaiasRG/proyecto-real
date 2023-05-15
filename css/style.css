@@ -59,6 +59,17 @@ header img {
     flex-wrap: wrap;
     width: 90%;
   }
+  .menu .info .texto-info .divs-animation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu .info .texto-info .divs-animation .img-animation {
+    width: 90%;
+    margin: 5px;
+  }
+  .menu .info .texto-info .divs-animation .img-animation .trex-animation {
+    width: 90%;
+  }
   .menu .info .texto-grid {
     display: flex;
     justify-content: center;
@@ -177,10 +188,10 @@ header img {
   width: 100%;
   height: 400px;
   padding-bottom: 20px;
-  transition: all 1s;
+  transition: all 2s;
 }
 .menu .info .texto-info .divs-animation .img-animation .trex-animation:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .menu .info .texto-stan {
   display: flex;
@@ -255,6 +266,17 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 90%;
+  }
+  .menu .info .texto-info .divs-animation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu .info .texto-info .divs-animation .img-animation {
+    width: 90%;
+    margin: 5px;
+  }
+  .menu .info .texto-info .divs-animation .img-animation .trex-animation {
     width: 90%;
   }
   .menu .info .texto-grid {
@@ -355,6 +377,17 @@ header img {
     flex-wrap: wrap;
     width: 90%;
   }
+  .menu .info .texto-info .divs-animation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu .info .texto-info .divs-animation .img-animation {
+    width: 90%;
+    margin: 5px;
+  }
+  .menu .info .texto-info .divs-animation .img-animation .trex-animation {
+    width: 90%;
+  }
   .menu .info .texto-grid {
     display: flex;
     justify-content: center;
@@ -435,6 +468,12 @@ header img {
   background-color: #5A4956;
   color: #ACAD94;
 }
+#form #fondo-form #formulario #logo-form {
+  transition: all 2s;
+}
+#form #fondo-form #formulario #logo-form:hover {
+  transform: scale(1);
+}
 
 @media screen and (max-width: 1115px) {
   .menu .info .texto-grid {
@@ -473,6 +512,17 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 90%;
+  }
+  .menu .info .texto-info .divs-animation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu .info .texto-info .divs-animation .img-animation {
+    width: 90%;
+    margin: 5px;
+  }
+  .menu .info .texto-info .divs-animation .img-animation .trex-animation {
     width: 90%;
   }
   .menu .info .texto-grid {
@@ -601,6 +651,17 @@ header img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 90%;
+  }
+  .menu .info .texto-info .divs-animation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu .info .texto-info .divs-animation .img-animation {
+    width: 90%;
+    margin: 5px;
+  }
+  .menu .info .texto-info .divs-animation .img-animation .trex-animation {
     width: 90%;
   }
   .menu .info .texto-grid {
