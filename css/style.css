@@ -334,7 +334,7 @@ header img {
 .video {
   display: flex;
   width: 400px;
-  margin: 5px;
+  margin: 10px;
   gap: 10px;
 }
 
