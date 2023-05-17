@@ -25,17 +25,20 @@
         display: flex;
         justify-content: space-around;
         text-decoration: none;
+        list-style: none;
 
         .links {
             @include link;
         }
         
+        
     }
 
     #footer2 {
-        text-decoration: none;
         display: flex;
         justify-content: space-around;
+        text-decoration: none;
+        list-style: none;
 
         .links {
             @include link;

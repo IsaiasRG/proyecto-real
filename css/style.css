@@ -595,15 +595,17 @@ header img {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
+  list-style: none;
 }
 .fin #footer1 .links {
   text-decoration: none;
   color: #06324B;
 }
 .fin #footer2 {
-  text-decoration: none;
   display: flex;
   justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
 }
 .fin #footer2 .links {
   text-decoration: none;
