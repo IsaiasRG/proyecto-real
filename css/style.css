@@ -167,9 +167,13 @@ header img {
   justify-content: right;
   margin-bottom: 10px;
 }
-.menu .info .imagen #labios {
-  width: 300px;
-  height: 200px;
+.menu .info .art-labios {
+  display: flex;
+  justify-content: center;
+}
+.menu .info .art-labios #labios {
+  width: 400px;
+  height: 300px;
 }
 .menu .info .texto-info .texto {
   justify-content: left;

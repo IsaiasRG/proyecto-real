@@ -56,11 +56,18 @@
         margin-bottom: 10px;
       }
 
-      #labios {
-        width: 300px;
-        height: 200px;
-      }
+     
     }
+
+    
+    .art-labios {
+      display: flex;
+      justify-content: center;
+      #labios {
+        width: 400px;
+        height: 300px;
+      }
+     }
 
     .texto-info {
       .texto {
