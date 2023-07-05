@@ -22,7 +22,7 @@ let suscripcion = prompt ("¿Que nivel de suscripcion quieres adquirir?\n 1_ Pas
 
         case"5" :
         alert ("Tu carrito lleva un total de " + carrito);
-        break
+        break;
 
         default : 
         alert ("Disculpe, pero no se ha detectado ninguna opcion.")
