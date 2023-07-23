@@ -1,7 +1,7 @@
 
 let carrito = 0;
 
-let suscripcion = prompt ("¿Que nivel de suscripcion quieres adquirir?\n 1_ Pasante Novato --> $200 \n 2_ Paleontologo Intermedio --> $500 \n 3_ Paleontologo Profecional --> $1000 \n 4_ No quiero ninguna");
+let suscripcion = prompt ("¿Que nivel de suscripcion quieres adquirir?\n 1_ Pasante Novato (id: 1) --> $200 \n 2_ Paleontologo Intermedio (id: 2) --> $500 \n 3_ Paleontologo Profecional (id: 3) --> $1000 \n 4_ No quiero ninguna");
 
  while (suscripcion != 4){
     switch (suscripcion){
@@ -27,10 +27,20 @@ let suscripcion = prompt ("¿Que nivel de suscripcion quieres adquirir?\n 1_ Pas
         default : 
         alert ("Disculpe, pero no se ha detectado ninguna opcion.")
     }
-    suscripcion = prompt ("¿Que nivel de suscripcion quieres adquirir?\n 1_ Pasante Novato --> $200 \n 2_ Paleontologo Intermedio --> $500 \n 3_ Paleontologo Profecional --> $1000 \n 4_ No quiero ninguna \n 5_Ver carrito");
+    suscripcion = prompt ("¿Que nivel de suscripcion quieres adquirir?\n 1_ Pasante Novato (id: 1) --> $200 \n 2_ Paleontologo Intermedio (id: 2) --> $500 \n 3_ Paleontologo Profecional (id: 3) --> $1000 \n 4_ No quiero ninguna \n 5_Ver carrito");
 
  }
   
  function totaldelCarrito (precioSuscrip){
     carrito = carrito + precioSuscrip;
  }
+
+function filtrarDetalles(detallesTotales){
+   const beneficios = listaMembrecias.filter((suscripcion) => suscripcion.id == detallesTotales);
+   return beneficios;
+}
+
+let detallesConsulta = prompt(`Seleccione la opcion numerica de la membresia que desee ver analizar (ejemplo 1, 2 o 3)`);
+
+   const detallesABuscar = filtrarDetalles(detallesConsulta);
+   console.table(detallesABuscar);
